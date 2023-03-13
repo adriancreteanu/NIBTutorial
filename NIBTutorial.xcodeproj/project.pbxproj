@@ -16,6 +16,9 @@
 		3AB8DD8F29BF472F0009A867 /* NIBTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8DD8E29BF472F0009A867 /* NIBTutorialTests.swift */; };
 		3AB8DD9929BF472F0009A867 /* NIBTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8DD9829BF472F0009A867 /* NIBTutorialUITests.swift */; };
 		3AB8DD9B29BF472F0009A867 /* NIBTutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8DD9A29BF472F0009A867 /* NIBTutorialUITestsLaunchTests.swift */; };
+		3AB8DDA829BF493A0009A867 /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8DDA729BF493A0009A867 /* TableController.swift */; };
+		3AB8DDAC29BF4C260009A867 /* NIBTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8DDAA29BF4C260009A867 /* NIBTableViewCell.swift */; };
+		3AB8DDAD29BF4C260009A867 /* NIBTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AB8DDAB29BF4C260009A867 /* NIBTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		3AB8DD9429BF472F0009A867 /* NIBTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NIBTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AB8DD9829BF472F0009A867 /* NIBTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIBTutorialUITests.swift; sourceTree = "<group>"; };
 		3AB8DD9A29BF472F0009A867 /* NIBTutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIBTutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3AB8DDA729BF493A0009A867 /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
+		3AB8DDAA29BF4C260009A867 /* NIBTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIBTableViewCell.swift; sourceTree = "<group>"; };
+		3AB8DDAB29BF4C260009A867 /* NIBTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NIBTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		3AB8DD7629BF472D0009A867 /* NIBTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				3AB8DDA929BF4BA30009A867 /* Interface Builder Cell */,
 				3AB8DD7729BF472D0009A867 /* AppDelegate.swift */,
 				3AB8DD7929BF472D0009A867 /* SceneDelegate.swift */,
 				3AB8DD7B29BF472D0009A867 /* ViewController.swift */,
@@ -106,6 +113,7 @@
 				3AB8DD8029BF472E0009A867 /* Assets.xcassets */,
 				3AB8DD8229BF472E0009A867 /* LaunchScreen.storyboard */,
 				3AB8DD8529BF472E0009A867 /* Info.plist */,
+				3AB8DDA729BF493A0009A867 /* TableController.swift */,
 			);
 			path = NIBTutorial;
 			sourceTree = "<group>";
@@ -125,6 +133,15 @@
 				3AB8DD9A29BF472F0009A867 /* NIBTutorialUITestsLaunchTests.swift */,
 			);
 			path = NIBTutorialUITests;
+			sourceTree = "<group>";
+		};
+		3AB8DDA929BF4BA30009A867 /* Interface Builder Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3AB8DDAA29BF4C260009A867 /* NIBTableViewCell.swift */,
+				3AB8DDAB29BF4C260009A867 /* NIBTableViewCell.xib */,
+			);
+			path = "Interface Builder Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AB8DD8429BF472E0009A867 /* LaunchScreen.storyboard in Resources */,
+				3AB8DDAD29BF4C260009A867 /* NIBTableViewCell.xib in Resources */,
 				3AB8DD8129BF472E0009A867 /* Assets.xcassets in Resources */,
 				3AB8DD7F29BF472D0009A867 /* Main.storyboard in Resources */,
 			);
@@ -258,7 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AB8DDA829BF493A0009A867 /* TableController.swift in Sources */,
 				3AB8DD7C29BF472D0009A867 /* ViewController.swift in Sources */,
+				3AB8DDAC29BF4C260009A867 /* NIBTableViewCell.swift in Sources */,
 				3AB8DD7829BF472D0009A867 /* AppDelegate.swift in Sources */,
 				3AB8DD7A29BF472D0009A867 /* SceneDelegate.swift in Sources */,
 			);

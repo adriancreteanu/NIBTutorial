@@ -12,8 +12,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
     }
 
+    @IBAction func openTableAction(_ sender: UIButton) {
+        let tableController = TableController()
+        present(tableController, animated: true)
+    }
+    
+    
 
 }
 

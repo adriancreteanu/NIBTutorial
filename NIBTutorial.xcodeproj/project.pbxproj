@@ -19,6 +19,7 @@
 		3AB8DDA829BF493A0009A867 /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8DDA729BF493A0009A867 /* TableController.swift */; };
 		3AB8DDAC29BF4C260009A867 /* NIBTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8DDAA29BF4C260009A867 /* NIBTableViewCell.swift */; };
 		3AB8DDAD29BF4C260009A867 /* NIBTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AB8DDAB29BF4C260009A867 /* NIBTableViewCell.xib */; };
+		3AB8DDB029BF61690009A867 /* ProgramaticCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8DDAF29BF61690009A867 /* ProgramaticCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		3AB8DDA729BF493A0009A867 /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
 		3AB8DDAA29BF4C260009A867 /* NIBTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIBTableViewCell.swift; sourceTree = "<group>"; };
 		3AB8DDAB29BF4C260009A867 /* NIBTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NIBTableViewCell.xib; sourceTree = "<group>"; };
+		3AB8DDAF29BF61690009A867 /* ProgramaticCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramaticCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		3AB8DD7629BF472D0009A867 /* NIBTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				3AB8DDAE29BF61590009A867 /* Programatic Cell */,
 				3AB8DDA929BF4BA30009A867 /* Interface Builder Cell */,
 				3AB8DD7729BF472D0009A867 /* AppDelegate.swift */,
 				3AB8DD7929BF472D0009A867 /* SceneDelegate.swift */,
@@ -142,6 +145,14 @@
 				3AB8DDAB29BF4C260009A867 /* NIBTableViewCell.xib */,
 			);
 			path = "Interface Builder Cell";
+			sourceTree = "<group>";
+		};
+		3AB8DDAE29BF61590009A867 /* Programatic Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3AB8DDAF29BF61690009A867 /* ProgramaticCell.swift */,
+			);
+			path = "Programatic Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AB8DDA829BF493A0009A867 /* TableController.swift in Sources */,
+				3AB8DDB029BF61690009A867 /* ProgramaticCell.swift in Sources */,
 				3AB8DD7C29BF472D0009A867 /* ViewController.swift in Sources */,
 				3AB8DDAC29BF4C260009A867 /* NIBTableViewCell.swift in Sources */,
 				3AB8DD7829BF472D0009A867 /* AppDelegate.swift in Sources */,

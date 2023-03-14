@@ -27,7 +27,7 @@ class ProgramaticCell: UITableViewCell {
     func setup() {
         contentView.addSubview(label)
         
-        label.text = "Programatic Cell Label"
+        label.text = "Programatic Cell Label from Storyboard"
         label.translatesAutoresizingMaskIntoConstraints = false
         
         NSLayoutConstraint.activate([

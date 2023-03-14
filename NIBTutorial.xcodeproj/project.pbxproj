@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A93FF2F29C0C7D4004391D9 /* Table.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A93FF2E29C0C7D4004391D9 /* Table.storyboard */; };
 		3AB8DD7829BF472D0009A867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8DD7729BF472D0009A867 /* AppDelegate.swift */; };
 		3AB8DD7A29BF472D0009A867 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8DD7929BF472D0009A867 /* SceneDelegate.swift */; };
 		3AB8DD7C29BF472D0009A867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8DD7B29BF472D0009A867 /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A93FF2E29C0C7D4004391D9 /* Table.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Table.storyboard; sourceTree = "<group>"; };
 		3AB8DD7429BF472D0009A867 /* NIBTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NIBTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AB8DD7729BF472D0009A867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AB8DD7929BF472D0009A867 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				3AB8DD8229BF472E0009A867 /* LaunchScreen.storyboard */,
 				3AB8DD8529BF472E0009A867 /* Info.plist */,
 				3AB8DDA729BF493A0009A867 /* TableController.swift */,
+				3A93FF2E29C0C7D4004391D9 /* Table.storyboard */,
 			);
 			path = NIBTutorial;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				3AB8DD8429BF472E0009A867 /* LaunchScreen.storyboard in Resources */,
 				3AB8DDAD29BF4C260009A867 /* NIBTableViewCell.xib in Resources */,
+				3A93FF2F29C0C7D4004391D9 /* Table.storyboard in Resources */,
 				3AB8DD8129BF472E0009A867 /* Assets.xcassets in Resources */,
 				3AB8DD7F29BF472D0009A867 /* Main.storyboard in Resources */,
 			);

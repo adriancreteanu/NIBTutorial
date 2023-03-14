@@ -16,8 +16,11 @@ class ViewController: UIViewController {
     }
 
     @IBAction func openTableAction(_ sender: UIButton) {
-        let tableController = TableController()
+        let storyboard = UIStoryboard(name: "Table", bundle: nil)
+        let tableController = storyboard.instantiateViewController(withIdentifier: "TableVC")
         present(tableController, animated: true)
+        
+        
     }
     
     

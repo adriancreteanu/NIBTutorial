@@ -16,7 +16,7 @@ class TableController: UITableViewController {
         //let nib = UINib(nibName: "NIBTableViewCell", bundle: nil)
         //tableView.register(nib, forCellReuseIdentifier: NIBTableViewCell.cellIdentifier)
         
-        tableView.register(ProgramaticCell.self, forCellReuseIdentifier: ProgramaticCell.cellIdentifier)
+        tableView.register(ProgramaticCell.self, forCellReuseIdentifier: ProgramaticCell.reuseIdentifier)
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -24,7 +24,7 @@ class TableController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: ProgramaticCell.cellIdentifier, for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: ProgramaticCell.reuseIdentifier, for: indexPath)
         return cell
     }
     

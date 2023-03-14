@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3A93FF2F29C0C7D4004391D9 /* Table.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A93FF2E29C0C7D4004391D9 /* Table.storyboard */; };
+		3A93FF3329C0CE4E004391D9 /* UITableViewCell+Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A93FF3229C0CE4E004391D9 /* UITableViewCell+Identifier.swift */; };
 		3AB8DD7829BF472D0009A867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8DD7729BF472D0009A867 /* AppDelegate.swift */; };
 		3AB8DD7A29BF472D0009A867 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8DD7929BF472D0009A867 /* SceneDelegate.swift */; };
 		3AB8DD7C29BF472D0009A867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8DD7B29BF472D0009A867 /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		3A93FF2E29C0C7D4004391D9 /* Table.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Table.storyboard; sourceTree = "<group>"; };
+		3A93FF3229C0CE4E004391D9 /* UITableViewCell+Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Identifier.swift"; sourceTree = "<group>"; };
 		3AB8DD7429BF472D0009A867 /* NIBTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NIBTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AB8DD7729BF472D0009A867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AB8DD7929BF472D0009A867 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A93FF3129C0CE3E004391D9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3A93FF3229C0CE4E004391D9 /* UITableViewCell+Identifier.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		3AB8DD6B29BF472D0009A867 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +119,7 @@
 		3AB8DD7629BF472D0009A867 /* NIBTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				3A93FF3129C0CE3E004391D9 /* Extensions */,
 				3AB8DDAE29BF61590009A867 /* Programatic Cell */,
 				3AB8DDA929BF4BA30009A867 /* Interface Builder Cell */,
 				3AB8DD7729BF472D0009A867 /* AppDelegate.swift */,
@@ -296,6 +307,7 @@
 				3AB8DD7C29BF472D0009A867 /* ViewController.swift in Sources */,
 				3AB8DDAC29BF4C260009A867 /* NIBTableViewCell.swift in Sources */,
 				3AB8DD7829BF472D0009A867 /* AppDelegate.swift in Sources */,
+				3A93FF3329C0CE4E004391D9 /* UITableViewCell+Identifier.swift in Sources */,
 				3AB8DD7A29BF472D0009A867 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
